@@ -1,0 +1,64 @@
+{
+  "$schema": "https://decispher.com/schemas/context-rules/v1.json",
+  "specVersion": "2.0.0",
+  "generatedAt": "2026-05-26T06:06:15.862Z",
+  "companyId": "4762c733-c70b-4865-9b82-b98cc1e816fc",
+  "projectId": "09cdff3f-745b-4973-84a0-425249b09a00",
+  "meta": {
+    "totalRules": 1,
+    "rulesByType": {
+      "decision": 1,
+      "convention": 0,
+      "constraint": 0,
+      "rationale": 0,
+      "ownership": 0,
+      "history": 0,
+      "plan": 0
+    },
+    "rulesBySeverity": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 1,
+      "LOW": 0
+    },
+    "generator": "decispher-context-map@1.0.0"
+  },
+  "mcp": {
+    "instruction": "Enforcement manifest only — rule titles, severities, and file patterns. It does NOT contain the rationale, alternatives, or full body of any rule, and it may be stale relative to the live knowledge base. Do NOT treat this file as sufficient context. Before writing or reviewing code that touches a listed file pattern, call the MCP tool named in that rule's `mcpFetch` field to load the authoritative, up-to-date context. MCP is the source of truth.",
+    "tools": {
+      "getDecision": "decispher.get_decision({ decisionId })",
+      "getContextForTopic": "decispher.get_context_for_topic({ topic })",
+      "listTopics": "decispher.list_topics()"
+    }
+  },
+  "rules": [
+    {
+      "id": "8f17e97d-1c8e-4b9e-98dd-35802d1200ad",
+      "type": "decision",
+      "title": "Increase MCP session inactivity window from 30 to 45 minutes",
+      "severity": "MEDIUM",
+      "status": "active",
+      "affectedFiles": [
+        "redis_ttl_config",
+        "mcp_logs_session_logic"
+      ],
+      "tags": [
+        "mcp",
+        "sessions",
+        "data-analysis",
+        "infrastructure"
+      ],
+      "supersededBy": null,
+      "enforcement": {
+        "blockOnViolation": false,
+        "requiresExplicitOverride": false,
+        "filePatterns": [
+          "redis_ttl_config",
+          "mcp_logs_session_logic"
+        ],
+        "exemptPatterns": []
+      },
+      "mcpFetch": "decispher.get_decision({ decisionId: \"8f17e97d-1c8e-4b9e-98dd-35802d1200ad\" })"
+    }
+  ]
+}
