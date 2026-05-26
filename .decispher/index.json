@@ -1,0 +1,30 @@
+{
+  "schema": "decispher-context-map/v1",
+  "generatedAt": "2026-05-26T06:06:15.862Z",
+  "project": {
+    "id": "09cdff3f-745b-4973-84a0-425249b09a00",
+    "name": "First Project"
+  },
+  "company": {
+    "id": "4762c733-c70b-4865-9b82-b98cc1e816fc"
+  },
+  "spine": [],
+  "topics": [],
+  "mcp": {
+    "endpoint": null,
+    "tools": [
+      "decispher.check_intent",
+      "decispher.get_constraints",
+      "decispher.check_conventions",
+      "decispher.get_context_for_file",
+      "decispher.get_context_for_topic",
+      "decispher.list_topics",
+      "decispher.search_decisions",
+      "decispher.get_decision",
+      "decispher.ask_knowledge_base",
+      "decispher.capture_decision",
+      "decispher.copy_chat",
+      "decispher.paste_chat"
+    ]
+  }
+}
