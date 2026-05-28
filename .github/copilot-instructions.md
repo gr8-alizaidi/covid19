@@ -23,7 +23,9 @@ _No always-apply rules yet — fetch via MCP when working on a topic._
 
 ## When working on a topic
 
-_No topics yet — call `decispher.list_topics()` to discover at runtime._
+Topics are listed below; load the stub for the topic you are working on:
+
+- **mcp** (MCP (Model Context Protocol)) → `.decispher/topics/mcp.md`
 
 ## Decispher MCP tools
 
