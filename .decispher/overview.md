@@ -17,6 +17,7 @@ _No spine items — no CRITICAL units in the corpus yet._
 
 ## Recent changes
 
+- 2026-05-26 · Migrate from Umbraco to Contentful for CMS functionality
 - 2026-05-25 · Increase MCP session inactivity window from 30 to 45 minutes
 
 ## Need something not here?
@@ -24,3 +25,5 @@ _No spine items — no CRITICAL units in the corpus yet._
 Call `decispher.list_topics()` for the live topic list (may differ from this file if new topics were added since the last sync).
 
 Call `decispher.search_decisions({ query: "your question" })` to search across all context.
+
+**1 unit not yet assigned to a topic** — see `.decispher/unmapped-context.md`.
