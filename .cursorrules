@@ -5,6 +5,9 @@
 # Do NOT write code before completing the above steps.
 
 
+# Topics — load on demand:
+- mcp (MCP (Model Context Protocol)) -> decispher.get_context_for_topic({ topic: "mcp" })
+
 # Decispher MCP tools
 # Call proactively when relevant (agent-invoked):
 #   decispher.check_intent — before implementing something potentially constrained — verify against active decisions
