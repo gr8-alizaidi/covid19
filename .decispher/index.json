@@ -1,6 +1,6 @@
 {
   "schema": "decispher-context-map/v1",
-  "generatedAt": "2026-05-26T06:06:15.862Z",
+  "generatedAt": "2026-05-28T08:12:55.614Z",
   "project": {
     "id": "09cdff3f-745b-4973-84a0-425249b09a00",
     "name": "First Project"
@@ -9,7 +9,19 @@
     "id": "4762c733-c70b-4865-9b82-b98cc1e816fc"
   },
   "spine": [],
-  "topics": [],
+  "topics": [
+    {
+      "id": "mcp",
+      "label": "MCP (Model Context Protocol)",
+      "description": "Decispher's Live Context surface — tools agents call to fetch decisions, topics, intents, and constraints.",
+      "unitCount": 1,
+      "spineUnitCount": 0,
+      "expansionUnitCount": 1,
+      "tokensInStub": 0,
+      "stubPath": ".decispher/topics/mcp.md",
+      "mcpTool": "decispher.get_context_for_topic"
+    }
+  ],
   "mcp": {
     "endpoint": null,
     "tools": [
