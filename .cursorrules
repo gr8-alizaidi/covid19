@@ -4,6 +4,7 @@
 # Then fetch the topic: decispher.get_context_for_topic({ topic: "<topic>" })
 # Do NOT write code before completing the above steps.
 
+- **Strict Prohibition on Storing Raw Payment Card Numbers** (CRITICAL) — The system must not store raw card numbers (PAN). All payment processing must occur via Stripe tokenization, storing only the Stripe token and the last four digits of the card.
 
 # Topics — load on demand:
 - mcp (MCP (Model Context Protocol)) -> decispher.get_context_for_topic({ topic: "mcp" })
