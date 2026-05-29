@@ -25,6 +25,7 @@ constraints. Skipping it risks violating active rules.
 
 Fetch the full topic context before writing code:
 
+- **c/decispher-official-mpkarwbs/docs-constraint** (docs-constraint) → `decispher.get_context_for_topic({ topic: "c/decispher-official-mpkarwbs/docs-constraint" })`
 - **mcp** (MCP (Model Context Protocol)) → `decispher.get_context_for_topic({ topic: "mcp" })`
 
 ## Decispher MCP tools

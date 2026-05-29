@@ -1,6 +1,6 @@
 {
   "schema": "decispher-context-map/v1",
-  "generatedAt": "2026-05-29T10:43:07.349Z",
+  "generatedAt": "2026-05-29T18:41:05.141Z",
   "project": {
     "id": "09cdff3f-745b-4973-84a0-425249b09a00",
     "name": "First Project"
@@ -16,6 +16,17 @@
     }
   ],
   "topics": [
+    {
+      "id": "c/decispher-official-mpkarwbs/docs-constraint",
+      "label": "docs-constraint",
+      "description": null,
+      "unitCount": 4,
+      "spineUnitCount": 0,
+      "expansionUnitCount": 4,
+      "tokensInStub": 0,
+      "stubPath": ".decispher/topics/c/decispher-official-mpkarwbs/docs-constraint.md",
+      "mcpTool": "decispher.get_context_for_topic"
+    },
     {
       "id": "mcp",
       "label": "MCP (Model Context Protocol)",
