@@ -1,12 +1,10 @@
 # Unmapped Context
 
-14 active context units in **First Project** are not yet assigned to a topic.
+12 active context units in **First Project** are not yet assigned to a topic.
 Fetch any unit's full body via MCP. Review and assign these from the Unmapped Review Queue in the Decispher dashboard.
 
 | Title | Type | Severity | MCP fetch |
 |-------|------|----------|-----------|
-| Strict Prohibition on Storing Raw Payment Card Numbers | constraint | CRITICAL | `decispher.get_decision({ decisionId: "df0a62fd-88e3-49e6-b9f4-f776dda775de" })` |
-| Establish naming convention for database columns and API JSON fields | decision | HIGH | `decispher.get_decision({ decisionId: "26c9c1c0-343b-4f5a-90e1-afe1a8971e43" })` |
 | Keep the Phase 1 / Phase 2 boundary: capture creates records, Guardian enforces | constraint | HIGH | `decispher.get_decision({ decisionId: "2671835c-fbfe-4802-9b65-7c732066d082" })` |
 | Migrate from Umbraco to Contentful for CMS functionality | decision | HIGH | `decispher.get_decision({ decisionId: "dfae8267-c945-4f1b-bfe1-5321b12d8c87" })` |
 | Phase 2 is the Decision Capture Engine (capture & intelligence layer) | decision | HIGH | `decispher.get_decision({ decisionId: "4ddf24a6-8c7a-438e-abb6-dbaeeaef1e4e" })` |
