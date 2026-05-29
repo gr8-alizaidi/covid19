@@ -15,7 +15,7 @@ These are CRITICAL invariants. Every AI agent loading this project should treat 
 
 | Topic | Label | Units |
 |-------|-------|------:|
-| `mcp` | MCP (Model Context Protocol) | 1 |
+| `mcp` | MCP (Model Context Protocol) | 3 |
 
 ## Recent changes
 
@@ -36,4 +36,4 @@ Call `decispher.list_topics()` for the live topic list (may differ from this fil
 
 Call `decispher.search_decisions({ query: "your question" })` to search across all context.
 
-**14 units not yet assigned to a topic** — see `.decispher/unmapped-context.md`.
+**12 units not yet assigned to a topic** — see `.decispher/unmapped-context.md`.
