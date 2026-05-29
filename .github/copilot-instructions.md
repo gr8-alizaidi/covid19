@@ -25,6 +25,7 @@ constraints. Skipping it risks violating active rules.
 
 Topics are listed below; load the stub for the topic you are working on:
 
+- **c/decispher-official-mpkarwbs/docs-constraint** (docs-constraint) → `.decispher/topics/c/decispher-official-mpkarwbs/docs-constraint.md`
 - **mcp** (MCP (Model Context Protocol)) → `.decispher/topics/mcp.md`
 
 ## Decispher MCP tools
