@@ -19,7 +19,7 @@ constraints. Skipping it risks violating active rules.
 
 ## Always apply
 
-_No always-apply rules yet — fetch via MCP when working on a topic._
+- **Strict Prohibition on Storing Raw Payment Card Numbers** (CRITICAL) — The system must not store raw card numbers (PAN). All payment processing must occur via Stripe tokenization, storing only the Stripe token and the last four digits of the card.
 
 ## When working on a topic
 
