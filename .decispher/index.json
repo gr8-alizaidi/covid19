@@ -1,6 +1,6 @@
 {
   "schema": "decispher-context-map/v1",
-  "generatedAt": "2026-05-28T11:56:32.869Z",
+  "generatedAt": "2026-05-29T10:35:36.362Z",
   "project": {
     "id": "09cdff3f-745b-4973-84a0-425249b09a00",
     "name": "First Project"
@@ -8,7 +8,13 @@
   "company": {
     "id": "4762c733-c70b-4865-9b82-b98cc1e816fc"
   },
-  "spine": [],
+  "spine": [
+    {
+      "id": "df0a62fd-88e3-49e6-b9f4-f776dda775de",
+      "title": "Strict Prohibition on Storing Raw Payment Card Numbers",
+      "severity": "CRITICAL"
+    }
+  ],
   "topics": [
     {
       "id": "mcp",
